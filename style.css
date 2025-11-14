@@ -1,65 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-ul{
-    display: flex;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    gap: 30px;
-}
-
-.head{
+.boshi {
     display: flex;
     justify-content: space-between;
+    width: 1150px;
+    height: 41px;
     align-items: center;
-    padding: 15px 100px;
-    width: 1440px;
-    height: 70px;
+    margin: auto;
+    margin-top: 30px;
 }
 
-header{
-    background-color: #282829;
-}
-
-img{
-    width: 40px;
-    height: 40px;
-}
-h1{
-    margin-left: 500px;
-    font-size: 88px;
-    font-weight: 500;
-    width: 743px;
-    margin-top: 114px;
-    margin-bottom: 114px;
-}
-
-.card img{
-   width: 393px;
-   height: 230px;
-
-}
-
-.card{
-    width: 393px;
-    height: 396px;
-    text-align: center;
-}
-
-h3{
-    font-weight: 600;
-    font-size: 28px ;
-}
-
-.case{
+ul {
     display: flex;
+    gap: 41px;
+    list-style: none;
+    font-weight: 100;
+    color: gray;
+}
+p:hover{
+    color: black;
+}
+.tana{
+     display: flex;
+    width: 1180px;
+    height: 466px;
+    margin: auto;
+    margin-top: 20px;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
+    gap: 100px;
+    justify-content: space-between;
+}
+.IMG{
+    width: 550px;
+    height: 440px;
+}
+.orta{
+    width: 300px;
+    height: 292px;
+}
+button{
+ border-radius:19px;
+ border:1px;
+ background-color: #458FF6;
+ width: 150px;
+ height: 30px;
+ color: white;
+}
+button:hover{
+    background-color: rgb(129, 179, 223);
+    color: blue;
+    font-weight:bolder;
+}
+.orta2{
+    display: flex;
+    width: 1180px;
+    height: 1000    px;
+    margin: auto;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 102px;
+    gap: 20px;
+}
+.orta3{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-left:auto;
+
+}
+.box6{
+    width: 350px;
+    height: 350px;
+    background-color:rgb(184, 184, 184);
+    border-radius: 10px;
+
+    
+}
+img{
+    margin-left: 40px;
+    margin-top:45px;
+}
+
+h2{
+    margin-left: 20px;
+    gap:19px;
+}
+.box6:hover{
+    background-color: #458FF6 ;
+    color:white ;
+}
+p{
+    margin-left: 20px;
 }
